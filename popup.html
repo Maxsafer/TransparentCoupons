@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Transparent Coupons</title>
+    <style>
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                background-color: #007bff;
+            }
+
+            50% {
+                transform: scale(1.1);
+                background-color: #0056b3;
+            }
+
+            100% {
+                transform: scale(1);
+                background-color: #007bff;
+            }
+        }
+
+        .pulsing {
+            animation: pulse 2s infinite;
+            color: white;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            padding: 10px;
+            width: 300px;
+            overflow: hidden;
+            background-color: rgb(27, 27, 27);
+            color: white;
+        }
+
+        #output {
+            margin-top: 10px;
+            border: 1px solid #000000;
+            padding: 10px;
+            background-color: #292929;
+            color: white;
+            font-size: large;
+        }
+
+        #output span {
+            flex: 1;
+        }
+
+        button {
+            padding: 5px 10px;
+            background-color: #4d4d4d;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #000000;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Transparent Coupons</h1>
+    <h3 id="website-name"></h3>
+    <button id="fetch-data">Fetch Coupons</button>
+    <div id="output" style="white-space: pre-wrap;">Click the button to fetch coupons.</div>
+    <script src="popup.js"></script>
+    <br>
+    <a>This extension does not overwrite any affiliate links/cookies nor remembers which sites you visit.</a>
+</body>
+
+</html>
