@@ -3,3 +3,6 @@ Transparent coupon fetcher, this extension does not in any way modifies or inter
 Right now the extension is being under revision by google to go live. I will try to keep updating this extension in my free time. Any ideas are welcomed.
 
 [Support cool projects like this one! :)](https://www.paypal.com/donate/?hosted_button_id=SRATUX8VNHC9G)
+
+
+Things to keep in mind: The way I'm fetching coupons at the moment is very limited to basic sites due to the coupons nature.
